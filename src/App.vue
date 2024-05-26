@@ -119,6 +119,12 @@
               <q-card-actions align="right">
                 <q-btn flat label="Details" color="primary" />
                 <q-btn flat label="Add to Cart" color="primary" />
+                <q-btn
+                  flat
+                  label="Delete"
+                  color="negative"
+                  @click="deleteProduct(index)"
+                />
               </q-card-actions>
             </q-card>
           </div>
